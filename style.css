@@ -1,0 +1,68 @@
+/* style.css */
+
+/* Réinitialisation des marges et des rembourrages */
+body, h1, h2, h3, ul, li, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Définir une police de caractères pour l'ensemble de la page */
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Style de l'en-tête */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Style de la section "Accueil" */
+#home {
+    text-align: center;
+    padding: 40px;
+}
+
+#home h1 {
+    font-size: 36px;
+}
+
+#home img {
+    max-width: 100%;
+}
+
+/* Style des autres sections (À propos, Travail, CV, Contact) */
+section {
+    padding: 40px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Style du pied de page */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
